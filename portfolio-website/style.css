@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.contact {
+    width: 170px;
+    height: 40px;
+    border: solid white;
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+    transition: transform .25s ease;
+}
+
+.contact:hover {
+    transform: scale(1.15);
+}
+
+.work {
+    width: 170px;
+    height: 40px;
+    border: solid white;
+    border-radius: 20px;
+    background-color: #080808;
+    color: white;
+    transition: transform .25s ease;
+}
+
+.work:hover {
+    transform: scale(1.15);
+}
+
+.buttons {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.desc {
+    color: #9ca3afe2;
+    font-size: 18px;
+    width: 500px;
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 170px;
+}
+
+.heroright {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+
+.picture {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 200px;
+}
+
+body {
+    background-color: #080808;
+}
+
+.hero {
+    display: flex;
+    height: 800px;
+    justify-content: space-around;
+    align-items: safe;
+    background-color: #151515;
+
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+}
+
+.intro {
+    color: rgba(255, 255, 255, 0.467);
+    font-family: "Zalando Sans Expanded", sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: xx-large;
+    top: 130px;
+    right: 65px;
+
+}
+
+.title {
+    color: white;
+    position: relative;
+    top: 150px;
+    font-weight: bold;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+nav {
+    display: flex;
+    /* background-color: rgb(38, 0, 128); */
+    justify-content: space-around;
+    gap: 50px;
+    color: rgba(240, 255, 255, 0.584);
+    padding: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.373);
+    border-radius: 20px;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bold;
+    ;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.projects_info {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-size: medium;
+    width: fit-content;
+    display: inline;
+}
+
+.projects_desc h1 {
+    font-size: 70px;
+}
+.projects_desc p{
+    line-height: 1.7;
+}
+
+.project_image img {
+    width: 611.16px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.project_info {
+    margin-top: 300px;
+}
+
+.project_image {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.projects_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    margin-left: 70px;
+    width: 800px;
+}
+
+.projects_desc h1 {
+    font-size: 36px;
+}
+
+.projects_desc p {
+    position: relative;
+    bottom: 20px;
+    color: rgba(255, 255, 255, 0.605);
+}
+
+.project_card {
+    width: 45%;
+    margin: 100px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    background: linear-gradient(180deg, #2b2b2b, #171717);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.project_content {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+.project_content h2 {
+    font-size: 42px;
+}
+
+.project_content p {
+    width: 80%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.project_buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.project_buttons button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 35px;
+    background: #6C63FF;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.project_buttons button:hover {
+    transform: scale(1.2);
+}
+
+.chatbot {
+    text-align: center;
+}
+
+.codingIcons {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #151515;
+}
+
+.codingIcons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform .25s ease;
+}
+
+.codingIcons img:hover {
+    transform: scale(1.15);
+}
+
+.contact_me {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #151515;
+    gap: 30px;
+    text-align: center;
+}
+
+.contact_me h1 {
+    font-size: 50px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+.contact_me p {
+    line-height: 1.2;
+    font-size: 20px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.contact-buttons a,
+.buttons a,
+.buttons button,
+.project_buttons a,
+.project_buttons button {
+    text-decoration: none;
+}
+
+/* HERO BUTTONS */
+
+.work,
+.contact {
+    width: 220px;
+    height: 68px;
+
+    border: none;
+    border-radius: 999px;
+
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: all .3s ease;
+}
+
+/* White button */
+
+.work {
+    background: #171717;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .12);
+}
+
+.work:hover {
+    background: #222;
+    transform: translateY(-5px);
+}
+
+/* Purple button */
+
+.contact {
+    color: white;
+    background: linear-gradient(135deg, #6f6cff, #7a5cff, #5a67ff);
+    box-shadow: 0 0 25px rgba(98, 103, 255, .35);
+}
+
+.contact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 35px rgba(98, 103, 255, .55);
+}
+
+/* CONTACT SECTION BUTTONS */
+
+.btn-mail,
+.btn-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    width: 230px;
+    height: 78px;
+
+    border-radius: 999px;
+
+    color: white;
+    font-size: 30px;
+
+    transition: .3s;
+}
+
+.btn-mail {
+    background: linear-gradient(135deg, #6f6cff, #7a5cff, #5a67ff);
+    box-shadow: 0 0 30px rgba(98, 103, 255, .35);
+}
+
+.btn-mail:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(98, 103, 255, .55);
+}
+
+.btn-dark {
+    background: #171717;
+    border: 1px solid rgba(255, 255, 255, .08);
+}
+
+.btn-dark:hover {
+    background: #202020;
+    transform: translateY(-5px);
+}
+
+.btn-mail span,
+.btn-dark span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* PROJECT BUTTONS */
+
+.project_buttons button {
+    width: 170px;
+    height: 52px;
+
+    border: none;
+    border-radius: 999px;
+
+    background: linear-gradient(135deg, #6f6cff, #7a5cff, #5a67ff);
+
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.project_buttons button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(98, 103, 255, .45);
+}
