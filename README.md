@@ -30,9 +30,7 @@ A modern and responsive portfolio website showcasing my projects, skills, and co
 ## 📬 Contact
 
 - GitHub: https://github.com/flyingmachine723
-- Email: your@email.com
-- LinkedIn: https://linkedin.com/in/yourprofile
-
+- Email: ucp1970@email.com
 ---
 
 Made with ❤️ by Pranav Pandey
